@@ -8,8 +8,12 @@ pip install -r requirements.txt
 ```
 # Testing script
 If you need to test x8 images, run the code:
-`python test_SwinFuSR.py --opt options/test_swinFuSR_x8.json`
+```
+python test_SwinFuSR.py --opt options/test_swinFuSR_x8.json
+```
 If you need to test x16 images, run the code:
-`python test_SwinFuSR.py --opt options/test_swinFuSR_x16.json`
+```
+python test_SwinFuSR.py --opt options/test_swinFuSR_x16.json
+```
 # Acknowledgement
 Most of the code is based on the work of [SwinFuSR](https://github.com/VisionICLab/SwinFuSR) , modifying the `test_swinFuSR.py` code, and splitting the test scripts in the `options` folder into `test_swinFuSR_x8.json` and `test_swinFuSR_x16.json`.thanks to the team for their inspiration!
