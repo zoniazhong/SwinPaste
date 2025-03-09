@@ -16,8 +16,8 @@ If you need to test x16 images, run the code:
 python test_SwinFuSR.py --opt options/test_swinFuSR_x16.json
 ```
 # Pre-trained Weights
-x8 weights:[x8_E.pth]([https://github.com/VisionICLab/SwinFuSR](https://pan.baidu.com/s/1Yd1GVe2HoYR6YEDBn-0C0w?pwd=n3c5 )
-x16 weights:[x16_E.pth]([https://github.com/VisionICLab/SwinFuSR](https://pan.baidu.com/s/17jNlpgxEBfVS_ABYOctI3w?pwd=pjaj )
+x8 weights:[x8_E.pth](https://pan.baidu.com/s/1Yd1GVe2HoYR6YEDBn-0C0w?pwd=n3c5 )
+x16 weights:[x16_E.pth](https://pan.baidu.com/s/17jNlpgxEBfVS_ABYOctI3w?pwd=pjaj )
 
 # Acknowledgement
 Most of the code is based on the work of [SwinFuSR](https://github.com/VisionICLab/SwinFuSR) , modifying the `test_swinFuSR.py` code, and splitting the test scripts in the `options` folder into `test_swinFuSR_x8.json` and `test_swinFuSR_x16.json`.thanks to the team for their inspiration!
