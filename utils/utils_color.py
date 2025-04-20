@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 """
 Pytorch implementation of RGB convert to HSV, and HSV convert to RGB,
 RGB or HSV's shape: (B * C * H * W)

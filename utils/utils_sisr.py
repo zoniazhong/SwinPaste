@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 # -*- coding: utf-8 -*-
 from utils import utils_image as util
 import random

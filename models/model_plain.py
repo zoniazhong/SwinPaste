@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 from collections import OrderedDict
 from functools import wraps
 import torch

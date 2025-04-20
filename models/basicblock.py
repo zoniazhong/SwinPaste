@@ -1,15 +1,13 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 from collections import OrderedDict
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
-
-'''
-# --------------------------------------------
-# Advanced nn.Sequential
-# https://github.com/xinntao/BasicSR
-# --------------------------------------------
-'''
 
 
 def sequential(*args):
@@ -35,24 +33,6 @@ def sequential(*args):
     return nn.Sequential(*modules)
 
 
-'''
-# --------------------------------------------
-# Useful blocks
-# https://github.com/xinntao/BasicSR
-# --------------------------------
-# conv + normaliation + relu (conv)
-# (PixelUnShuffle)
-# (ConditionalBatchNorm2d)
-# concat (ConcatBlock)
-# sum (ShortcutBlock)
-# resblock (ResBlock)
-# Channel Attention (CA) Layer (CALayer)
-# Residual Channel Attention Block (RCABlock)
-# Residual Channel Attention Group (RCAGroup)
-# Residual Dense Block (ResidualDenseBlock_5C)
-# Residual in Residual Dense Block (RRDB)
-# --------------------------------------------
-'''
 
 
 # --------------------------------------------
@@ -149,10 +129,7 @@ class PixelUnShuffle(nn.Module):
         return 'upscale_factor={}'.format(self.upscale_factor)
 
 
-# --------------------------------------------
-# conditional batch norm
-# https://github.com/pytorch/pytorch/issues/8985#issuecomment-405080775
-# --------------------------------------------
+
 class ConditionalBatchNorm2d(nn.Module):
     def __init__(self, num_features, num_classes):
         super().__init__()

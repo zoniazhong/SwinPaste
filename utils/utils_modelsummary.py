@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 import torch.nn as nn
 import torch
 import numpy as np

@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 import functools
 import torch
 from torch.nn import init

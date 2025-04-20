@@ -1,3 +1,9 @@
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 import os.path
 import math
 import argparse
@@ -23,18 +29,6 @@ from data.select_dataset import define_Dataset
 from models.select_model import define_Model
 import warnings
 warnings.filterwarnings("ignore")
-
-
-'''
-# --------------------------------------------
-# training code for MSRResNet
-# --------------------------------------------
-# Kai Zhang (cskaizhang@gmail.com)
-# github: https://github.com/cszn/KAIR
-# --------------------------------------------
-# https://github.com/xinntao/BasicSR
-# --------------------------------------------
-'''
 
 
 def main(json_path='/root/autodl-tmp/root/autodl-tmp/SwinFuSR-main/options/test_swinFuSR_x8.json'):

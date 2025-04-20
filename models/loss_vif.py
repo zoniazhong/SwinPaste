@@ -1,4 +1,9 @@
-
+'''
+# --------------------------------------------------------
+# References:
+# https://github.com/VisionICLab/SwinFuSR
+# --------------------------------------------------------
+'''
 from matplotlib import image
 import torch
 import torch.nn as nn
